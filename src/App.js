@@ -8,7 +8,7 @@ import MainNavigation from './shared/components/Navigation/MainNavigation';
 const App = () => {
   return (
     <Router> 
-      {/* <MainNavigation /> */}
+      <MainNavigation />
       <main>
         <Switch>
           <Route path="/" exact>
